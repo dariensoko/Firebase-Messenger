@@ -1,0 +1,67 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{
+	margin:0;
+}
+
+body{
+	background-color:#B5B5B5;
+	height: 100vh;
+}
+.user1{
+	align-self:flex-end;
+	background-color:#97AEEB;
+	
+}
+
+.user2{
+	align-self:flex-start;
+	background-color:#DCDDC7;
+}
+
+.users{
+	list-style-type: none;
+	padding: 10px 5px 10px 5px;
+	border-radius:10px;
+	margin:7px 0 7px 0;
+	word-break:break-all;
+	font-family:sans-serif;
+}
+
+#div1{
+	display:none;
+	flex-direction:column;
+	margin:0px 10px 0px 10px;
+}
+
+.textArea{
+	display:none;
+}
+
+.textArea-visible{
+	display:flex;
+	justify-content: center;
+	
+	width: 100vw;
+	bottom: 0;
+}
+
+#user-box{
+
+}
+
+#user-field{
+	position: fixed;
+	width: 100vw;
+	text-align: center;
+	background-color: white;
+	box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.container-for-user{
+	display: flex;
+	height: 100vh;
+	align-items: center;
+	justify-content: center;
+}
